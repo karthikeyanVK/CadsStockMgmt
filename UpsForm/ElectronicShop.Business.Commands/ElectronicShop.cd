@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ElectronicShop.Business.Commands.Inventory">
+    <Position X="5.25" Y="3.5" Width="1.75" />
+    <AssociationLine Name="Serialize" Type="ElectronicShop.Business.Commands.Serialization">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.12" Y="0.081" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Deserialize" Type="ElectronicShop.Business.Commands.Deserialization">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.994" Y="0.143" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAgkFACAAAACAAAAARAAACFAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Inventory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Serialize" />
+      <Property Name="Deserialize" />
+      <Property Name="ProductList" />
+      <Property Name="SalesList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ElectronicShop.Business.Commands.Deserialization">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Deserialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectronicShop.Business.Commands.Product">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAgAAgAAEAAAABAAAAAAAAgIABAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectronicShop.Business.Commands.Sales">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQAAAAAAAAAgAAAAQAABAAABAAAAgAgAAAA=</HashCode>
+      <FileName>Sales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectronicShop.Business.Commands.Serialization">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
