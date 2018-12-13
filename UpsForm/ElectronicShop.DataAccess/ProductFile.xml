@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductList>
+    <Product>
+      <Brand>Zebronics</Brand>
+      <Voltage>30V</Voltage>
+      <OutputPower>50</OutputPower>
+      <ModelNo>zebronics123</ModelNo>
+      <Code>1</Code>
+      <Price>500</Price>
+      <Warranty>1</Warranty>
+      <Quantity>100</Quantity>
+    </Product>
+    <Product>
+      <Brand>hp</Brand>
+      <Voltage>20V</Voltage>
+      <OutputPower>50</OutputPower>
+      <ModelNo>hp123</ModelNo>
+      <Code>2</Code>
+      <Price>500</Price>
+      <Warranty>3</Warranty>
+      <Quantity>50</Quantity>
+    </Product>
+  </ProductList>
+  <SaleList />
+  <Data />
+</Shop>
